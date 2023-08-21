@@ -1,0 +1,11 @@
+{
+  "errorName": "bodyDoesNotMatchSchema",
+  "message": "The json body provided does not match the expected schema",
+  "validationErrors": [
+    {
+      "errorName": "fieldHasInvalidValue",
+      "message": "Field is mandatory",
+      "jsonPath": "$.instruction.value.amount"
+    }
+  ]
+}
